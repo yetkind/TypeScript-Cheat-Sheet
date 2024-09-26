@@ -20,7 +20,7 @@ Index
 
 ## Introduction
 
-TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It provides static typing, interfaces, and other features to improve the development experience and catch potential bugs during compile time. This cheat sheet assumes you already know JavaScript
+TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It provides static typing, interfaces, and other features to improve the development experience and catch potential bugs during compile time. This cheat sheet assumes you already know JavaScript 
 
 ---
 
