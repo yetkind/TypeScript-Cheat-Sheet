@@ -20,7 +20,7 @@ Index
 
 ## Introduction
 
-TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It provides static typing, interfaces, and other features to improve the development experience and catch potential bugs during compile time.
+TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It provides static typing, interfaces, and other features to improve the development experience and catch potential bugs during compile time. This cheat sheet assumes you already know JavaScript
 
 ---
 
@@ -77,7 +77,7 @@ TypeScript will infer the type if it is not explicitly specified.
 
 ```ts
 let inferredString = 'Hello'; // TypeScript infers this as string.
-let inferredNumber = 42;      // TypeScript infers this as number.
+let inferredNumber = 13;      // TypeScript infers this as number.
 ```
 
 ---
@@ -99,7 +99,7 @@ function buildName(firstName: string, lastName?: string): string {
   return lastName ? `${firstName} ${lastName}` : firstName;
 }
 
-function buildNameWithDefault(firstName: string, lastName = "Smith"): string {
+function buildNameWithDefault(firstName: string, lastName = "Yetkin"): string {
   return `${firstName} ${lastName}`;
 }
 ```
@@ -218,7 +218,7 @@ function identity<T>(arg: T): T {
 }
 
 let output = identity<string>("TypeScript"); // Explicit type
-let inferredOutput = identity(42); // Inferred type
+let inferredOutput = identity(13); // Inferred type
 ```
 
 ### Generic Constraints
@@ -265,8 +265,8 @@ let todo: Readonly<Todo> = {
 
 ```ts
 let nameAgeMap: Record<string, number> = {
-  Alice: 25,
-  Bob: 30
+  Yetkin: 25,
+  Miller: 30
 };
 ```
 
@@ -347,3 +347,4 @@ class Calculator {
 ```
 
 ---
+Feel free to customize and extend this cheat sheet as you explore more advanced development topics!
