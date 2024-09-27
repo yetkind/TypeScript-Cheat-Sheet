@@ -225,7 +225,7 @@ let inferredOutput = identity(13); // Inferred type
 
 ```ts
 function loggingIdentity<T extends { length: number }>(arg: T): T {
-  console.log(arg.length); // OK, `length` is a property.
+  console.log(arg.length); // `length` is a property.
   return arg;
 }
 ```
