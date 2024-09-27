@@ -1,4 +1,4 @@
-# TypeScript Cheat Sheet (Extended Version)
+# TypeScript Cheat Sheet
 Extended and detailed TypeScript cheat sheet.
 
 Index
